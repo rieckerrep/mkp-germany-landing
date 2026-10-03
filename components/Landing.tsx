@@ -108,7 +108,7 @@ export function Landing() {
             <div className="trust-row">
               <span><ShieldCheck size={18} /> Erfahrenes MKP-Team</span>
               <span><Users size={18} /> Gemeinschaft statt Publikum</span>
-              <span><Compass size={18} /> Seit 2000 als Verein in Deutschland</span>
+              <span><Compass size={18} /> Gemeinnütziger Verein in Deutschland</span>
             </div>
           </div>
           <a href="#warum" className="scroll-cue" aria-label="Weiter scrollen"><ChevronDown /></a>
