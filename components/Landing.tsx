@@ -95,7 +95,7 @@ export function Landing() {
 
       <main>
         <section id="top" className="hero dark-section">
-          <Image src="/images/gruppe-von-maennern.jpg" alt="Männer in Gemeinschaft" fill priority sizes="100vw" className="hero-image" />
+          <Image src="https://raw.githubusercontent.com/rieckerrep/mkp-poland/main/public/images/gruppe-von-maennern.jpg" alt="Männer in Gemeinschaft" fill priority sizes="100vw" className="hero-image" />
           <div className="hero-overlay" /><div className="orb orb-one" /><div className="orb orb-two" />
           <div className="container hero-content">
             <div className="eyebrow gold">NEW WARRIOR TRAINING ADVENTURE · MKP DEUTSCHLAND</div>
@@ -146,7 +146,7 @@ export function Landing() {
               <a className="text-link" href={`${official}/index.php?cPath=3`} target="_blank" rel="noreferrer">Mehr auf der offiziellen MKP-Seite <ArrowRight size={16} /></a>
             </div>
             <div className="image-card tall-card">
-              <Image src="/images/maenner-in-aktion.jpg" alt="Männer in gemeinsamer Arbeit" fill sizes="(max-width: 900px) 100vw, 44vw" />
+              <Image src="https://raw.githubusercontent.com/rieckerrep/mkp-poland/main/public/images/maenner-in-aktion.jpg" alt="Männer in gemeinsamer Arbeit" fill sizes="(max-width: 900px) 100vw, 44vw" />
               <div className="image-caption"><span>Kein Zuschauerplatz.</span><strong>Du bist Teil der Erfahrung.</strong></div>
             </div>
           </div>
@@ -174,7 +174,7 @@ export function Landing() {
 
         <section id="ueber-uns" className="dark-section identity-section">
           <div className="container two-col reverse-mobile">
-            <div className="image-card identity-image"><Image src="/images/stolz.jpg" alt="Mann im Freien" fill sizes="(max-width: 900px) 100vw, 44vw" /></div>
+            <div className="image-card identity-image"><Image src="https://raw.githubusercontent.com/rieckerrep/mkp-poland/main/public/images/stolz.jpg" alt="Mann im Freien" fill sizes="(max-width: 900px) 100vw, 44vw" /></div>
             <div>
               <div className="section-kicker gold">Über uns</div>
               <h2>Kein Männerbild von der Stange.</h2>
@@ -216,12 +216,12 @@ export function Landing() {
               </div>
               <a className="text-link" href={`${official}/index.php?cPath=4`} target="_blank" rel="noreferrer">Alle Wege nach dem NWTA <ArrowRight size={16} /></a>
             </div>
-            <div className="image-card tall-card"><Image src="/images/herz-mit-sonne.jpg" alt="Symbol für Verbundenheit" fill sizes="(max-width: 900px) 100vw, 44vw" /></div>
+            <div className="image-card tall-card"><Image src="https://raw.githubusercontent.com/rieckerrep/mkp-poland/main/public/images/herz-mit-sonne.jpg" alt="Symbol für Verbundenheit" fill sizes="(max-width: 900px) 100vw, 44vw" /></div>
           </div>
         </section>
 
         <section id="gruppen" className="dark-section groups-section">
-          <Image src="/images/empathie.jpg" alt="" fill sizes="100vw" className="groups-bg" />
+          <Image src="https://raw.githubusercontent.com/rieckerrep/mkp-poland/main/public/images/empathie.jpg" alt="" fill sizes="100vw" className="groups-bg" />
           <div className="groups-overlay" />
           <div className="container groups-content">
             <div className="section-kicker gold">Männergruppen · iGroups</div>
