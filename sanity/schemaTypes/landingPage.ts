@@ -1,4 +1,3 @@
-import {HomeIcon} from "@sanity/icons";
 import {defineArrayMember, defineField, defineType} from "sanity";
 
 const ctaFields = [
@@ -20,7 +19,6 @@ export const landingPage = defineType({
   name: "landingPage",
   title: "Landingpage",
   type: "document",
-  icon: HomeIcon,
   groups: [
     {name: "navigation", title: "Navigation"},
     {name: "hero", title: "Hero"},
