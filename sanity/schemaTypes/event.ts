@@ -1,11 +1,9 @@
-import {CalendarIcon} from "@sanity/icons";
 import {defineField, defineType} from "sanity";
 
 export const event = defineType({
   name: "event",
   title: "NWTA-Termin",
   type: "document",
-  icon: CalendarIcon,
   fields: [
     defineField({name: "title", title: "Ort / Titel", type: "string", validation: (rule) => rule.required()}),
     defineField({name: "dateLabel", title: "Datumsanzeige", type: "string", validation: (rule) => rule.required()}),
