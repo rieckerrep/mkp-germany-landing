@@ -1,6 +1,6 @@
 import {defineQuery} from "next-sanity";
 
-export const landingPageQuery = defineQuery(`*[_type == "landingPage"][0]{
+export const landingPageQuery = defineQuery(`*[_type == "landingPage" && _id == "landingPage.main"][0]{
   ...,
   heroImage{"url": coalesce(asset->url, externalUrl), alt},
   nwtaImage{"url": coalesce(asset->url, externalUrl), alt},
