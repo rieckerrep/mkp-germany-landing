@@ -1,4 +1,4 @@
-import {defineArrayMember, defineField, defineType} from "sanity";
+import {ALL_FIELDS_GROUP, defineArrayMember, defineField, defineType} from "sanity";
 
 const ctaFields = [
   defineField({name: "label", title: "Beschriftung", type: "string"}),
@@ -20,8 +20,8 @@ export const landingPage = defineType({
   title: "Landingpage",
   type: "document",
   groups: [
+    {name: "hero", title: "Hero", default: true},
     {name: "navigation", title: "Navigation"},
-    {name: "hero", title: "Hero"},
     {name: "problem", title: "Warum Männer kommen"},
     {name: "nwta", title: "Trainingswochenende"},
     {name: "expectations", title: "Was erwartet dich?"},
@@ -33,9 +33,10 @@ export const landingPage = defineType({
     {name: "faq", title: "FAQ"},
     {name: "contact", title: "Kontakt & Footer"},
     {name: "seo", title: "SEO"},
+    {...ALL_FIELDS_GROUP, hidden: true},
   ],
   fields: [
-    defineField({name: "internalTitle", title: "Interner Titel", type: "string", initialValue: "MKP Deutschland Landingpage", validation: (r) => r.required()}),
+    defineField({name: "internalTitle", title: "Interner Titel", type: "string", hidden: true, initialValue: "MKP Deutschland Landingpage", validation: (r) => r.required()}),
 
     defineField({name: "brandTitle", title: "Marke", type: "string", group: "navigation"}),
     defineField({name: "brandSubtitle", title: "Unterzeile", type: "string", group: "navigation"}),
